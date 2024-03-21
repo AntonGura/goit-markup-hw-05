@@ -545,7 +545,7 @@
     </footer>
     <div class="modal-overlay">
       <div class="modal">
-        <button type="submit" class="top-modal-btn">
+        <button type="button" class="top-modal-btn">
           <svg class="modal-close-icon" width="8" height="8">
             <use href="./images/icons.svg#icon-close-black"></use>
           </svg>
@@ -558,8 +558,9 @@
             <label for="user-name" class="modal-label">Name</label>
             <div class="modal-input-wrap">
               <input
+                type="text"
                 name="user-name"
-                class="modal-input colored"
+                class="modal-input"
                 id="user-name"
               />
               <svg class="input-icon" width="18" height="24">
@@ -595,7 +596,7 @@
               </svg>
             </div>
           </div>
-          <div class="modal-field">
+          <div class="modal-textfield">
             <label for="user-comment" class="modal-label">Comment</label>
             <textarea
               name="user-comment"
@@ -604,23 +605,26 @@
               placeholder="Text input"
             ></textarea>
           </div>
+          <div class="checkbox-wrap">
+            <input
+              type="checkbox"
+              name="user-privacy"
+              id="user-privacy"
+              value="true"
+              class="policy-checkbox visually-hidden"
+            />
+            <label for="user-privacy" class="user-privacy-label">
+              <span class="checkbox-wrap">
+                <svg class="modal-check-icon" width="10" height="8">
+                  <use href="./images/icons.svg#icon-vector"></use>
+                </svg>
+              </span>
+              I accept the terms and conditions of the
+              <a href="" class="privacy-link">Privacy Policy</a>
+            </label>
+          </div>
+          <button class="btn-modal" type="submit">Send</button>
         </form>
-        <input
-          type="checkbox"
-          name="policy"
-          id="policy"
-          class="policy-checkbox visually-hidden"
-        />
-        <label for="policy" class="policy-label">
-          <span>
-            <svg class="modal-check-icon" width="10" height="8">
-              <use href="./images/icons.svg#icon-vector"></use>
-            </svg>
-          </span>
-          I accept the terms and conditions of the
-          <a href="">Privacy Policy</a>
-        </label>
-        <button class="btn-modal" type="submit">Send</button>
       </div>
     </div>
   </body>

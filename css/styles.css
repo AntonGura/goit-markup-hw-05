@@ -646,7 +646,7 @@ padding: 100px 0;
         justify-content: center;
         align-items: center;
         gap: 16px;
-        min-width: 165px
+        min-width: 165px;
 }
 
 .footer-btn-icon {
@@ -834,7 +834,7 @@ align-items: center;
         position: relative;
 }
 
-.checkbox-wrap {
+.checkbox-span {
         display: inline-flex;
         align-items: center;
         justify-content: center;
@@ -844,12 +844,10 @@ align-items: center;
         height: 16px;
         position: relative;
         fill: transparent;
-        transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
-        
+        transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);        
 }
 
-.user-privacy-input:checked + .user-privacy-label .checkbox-wrap{
+.user-privacy-input:checked + .user-privacy-label .checkbox-span{
         border-radius: 2px;
         background-color: #404bbf;
         border: none;

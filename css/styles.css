@@ -618,7 +618,7 @@ padding: 100px 0;
                 box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
                 padding-left: 16px;
                 font-size: 12px;
-                line-height: 2px;
+                line-height: 2;
                 letter-spacing: 0.04em;
                 color: #ffffff;
 }
@@ -648,6 +648,12 @@ padding: 100px 0;
         gap: 16px;
         min-width: 165px
 }
+
+.footer-btn-icon {
+        margin-left: 16px;
+}
+
+/* ======MODAL========= */
 
 .modal-overlay {
         position: fixed;

@@ -644,13 +644,16 @@ padding: 100px 0;
         display: flex;
         justify-content: center;
         align-items: center;
-        gap: 16px;
         min-width: 165px;
 }
 
 .footer-btn:hover,
 .footer-btn:focus {
         background: #404bbf;
+}
+
+.footer-btn-icon {
+        margin-left: 16px;
 }
 
 /* ======MODAL========= */
